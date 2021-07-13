@@ -147,6 +147,10 @@ input[type="submit"] {
 }
 
 img {
+    max-width: 100%;
+}
+
+.imglogo {
   max-width: 200px;
 }
 
