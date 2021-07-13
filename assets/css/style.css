@@ -147,7 +147,7 @@ input[type="submit"] {
 }
 
 img {
-  max-width: 100%;
+  max-width: 200px;
 }
 
 :focus {
@@ -3988,7 +3988,7 @@ input[type="number"]::-webkit-outer-spin-button {
 
 @media screen and (max-width: 576px) {
   .img-width-100 img {
-    width: 200px;
+    width: 100%;
   }
 }
 
