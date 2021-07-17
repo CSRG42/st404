@@ -2299,7 +2299,7 @@ textarea:active::placeholder {
 }
 
 .cart-block-links.theme1 a:hover {
-  color: #888880;
+  color: #000000;
   background: #888880;
 }
 
