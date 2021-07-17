@@ -2295,7 +2295,7 @@ textarea:active::placeholder {
 }
 
 .cart-block-links.theme1 a {
-  color: #0000;
+  color: #000000;
 }
 
 .cart-block-links.theme1 a:hover {
@@ -2304,7 +2304,7 @@ textarea:active::placeholder {
 }
 
 .cart-block-links.theme2 a {
-  color: #0000 !important;
+  color: #000000 !important;
 }
 
 .cart-block-links.theme2 a:hover {
@@ -2312,7 +2312,7 @@ textarea:active::placeholder {
 }
 
 .cart-block-links.theme3 a {
-  color: #0000;
+  color: #000000;
 }
 
 .cart-block-links.theme3 a:hover {
