@@ -2295,7 +2295,7 @@ textarea:active::placeholder {
 }
 
 .cart-block-links.theme1 a {
-  color: #292929;
+  color: #ffffff;
 }
 
 .cart-block-links.theme1 a:hover {
@@ -2312,11 +2312,11 @@ textarea:active::placeholder {
 }
 
 .cart-block-links.theme3 a {
-  color: #292929;
+  color: #ffffff;
 }
 
 .cart-block-links.theme3 a:hover {
-  color: #000000;
+  color: #ffffff;
 }
 
 /*************************************
