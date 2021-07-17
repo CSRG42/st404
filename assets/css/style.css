@@ -146,10 +146,12 @@ input[type="submit"] {
   outline: 0 !important;
 }
 
+.imglogo {
+  width: 200px;
+}
 img {
   max-width: 100%;
 }
-
 :focus {
   outline: 0;
 }
