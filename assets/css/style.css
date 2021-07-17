@@ -2295,28 +2295,28 @@ textarea:active::placeholder {
 }
 
 .cart-block-links.theme1 a {
-  color: #8888;
+  color: #888880;
 }
 
 .cart-block-links.theme1 a:hover {
-  color: #ffffff;
-  background: #8888;
+  color: #888880;
+  background: #888880;
 }
 
 .cart-block-links.theme2 a {
-  color: #ffffff !important;
+  color: #888880 !important;
 }
 
 .cart-block-links.theme2 a:hover {
-  color: #ffffff;
+  color: #888880;
 }
 
 .cart-block-links.theme3 a {
-  color: #292929;
+  color: #888880;
 }
 
 .cart-block-links.theme3 a:hover {
-  color: #8888;
+  color: #888880;
 }
 
 /*************************************
