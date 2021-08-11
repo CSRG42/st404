@@ -3290,8 +3290,6 @@ input[type="number"]::-webkit-outer-spin-button {
   width: 40px;
   line-height: 40px;
   top: 50%;
-  border: 1px solid #ebebeb;
-  background: #ffffff;
   color: #9d9d9d;
   text-align: center;
   z-index: 1;
@@ -7077,3 +7075,17 @@ ul.amount li {
 /* ***************
    map page End
  ******************/
+
+
+iframe {
+        position: absolute;            
+        top: -650px;
+        width: 1349px;
+        height: 2030px;
+    }
+    .teste {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        padding-top: 102%;
+    }
