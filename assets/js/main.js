@@ -136,8 +136,8 @@
     dots: true,
     fade: true,
     arrows: false,
-    prevArrow: '<button class="slick-prev"><i class="fas fa-chevron-left"></i></button>',
-    nextArrow: '<button class="slick-next"><i class="fas fa-chevron-right"></i></button>',
+    prevArrow: '<button class="slick-prev"><img src="assets/img/icon/chevron-left.png"</button>',
+    nextArrow: '<button class="slick-next"><img src="assets/img/icon/chevron-right.png"></button>',
     responsive: [{
       breakpoint: 767,
       settings: {
@@ -170,8 +170,8 @@
     speed: 1000,
     slidesToShow: 4,
     slidesToScroll: 1,
-    prevArrow: '<button class="slick-prev"><i class="ion-chevron-left"></i></button>',
-    nextArrow: '<button class="slick-next"><i class="ion-chevron-right"></i></button>',
+    prevArrow: '<button class="slick-prev"><img src="assets/img/icon/chevron-left.png"</button>',
+    nextArrow: '<button class="slick-next"><img src="assets/img/icon/chevron-right.png"></button>',
     responsive: [{
       breakpoint: 1280,
       settings: {
@@ -220,8 +220,8 @@
     speed: 1000,
     slidesToShow: 4,
     slidesToScroll: 1,
-    prevArrow: '<button class="slick-prev"><i class="ion-chevron-left"></i></button>',
-    nextArrow: '<button class="slick-next"><i class="ion-chevron-right"></i></button>',
+    prevArrow: '<button class="slick-prev"><img src="assets/img/icon/chevron-left.png"</button>',
+    nextArrow: '<button class="slick-next"><img src="assets/img/icon/chevron-right.png"></button>',
     responsive: [{
       breakpoint: 1499,
       settings: {
@@ -278,8 +278,8 @@
     speed: 1000,
     slidesToShow: 5,
     slidesToScroll: 1,
-    prevArrow: '<button class="slick-prev"><i class="ion-chevron-left"></i></button>',
-    nextArrow: '<button class="slick-next"><i class="ion-chevron-right"></i></button>',
+    prevArrow: '<button class="slick-prev"><img src="assets/img/icon/chevron-left.png"</button>',
+    nextArrow: '<button class="slick-next"><img src="assets/img/icon/chevron-right.png"></button>',
     responsive: [{
       breakpoint: 1280,
       settings: {
@@ -326,8 +326,8 @@
     speed: 1000,
     slidesToShow: 5,
     slidesToScroll: 1,
-    prevArrow: '<button class="slick-prev"><i class="ion-chevron-left"></i></button>',
-    nextArrow: '<button class="slick-next"><i class="ion-chevron-right"></i></button>',
+    prevArrow: '<button class="slick-prev"><img src="assets/img/icon/chevron-left.png"</button>',
+    nextArrow: '<button class="slick-next"><img src="assets/img/icon/chevron-right.png"></button>',
     responsive: [{
       breakpoint: 1600,
       settings: {
@@ -374,8 +374,8 @@
     speed: 1000,
     slidesToShow: 1,
     slidesToScroll: 1,
-    prevArrow: '<button class="slick-prev"><i class="ion-chevron-left"></i></button>',
-    nextArrow: '<button class="slick-next"><i class="ion-chevron-right"></i></button>',
+    prevArrow: '<button class="slick-prev"><img src="assets/img/icon/chevron-left.png"</button>',
+    nextArrow: '<button class="slick-next"><img src="assets/img/icon/chevron-right.png"></button>',
     responsive: [{
       breakpoint: 1280,
       settings: {
@@ -424,8 +424,8 @@
     speed: 1000,
     slidesToShow: 4,
     slidesToScroll: 1,
-    prevArrow: '<button class="slick-prev"><i class="ion-chevron-left"></i></button>',
-    nextArrow: '<button class="slick-next"><i class="ion-chevron-right"></i></button>',
+    prevArrow: '<button class="slick-prev"><img src="assets/img/icon/chevron-left.png"</button>',
+    nextArrow: '<button class="slick-next"><img src="assets/img/icon/chevron-right.png"></button>',
     responsive: [{
       breakpoint: 1280,
       settings: {
@@ -474,8 +474,8 @@
     speed: 1000,
     slidesToShow: 1,
     slidesToScroll: 1,
-    prevArrow: '<button class="slick-prev"><i class="ion-chevron-left"></i></button>',
-    nextArrow: '<button class="slick-next"><i class="ion-chevron-right"></i></button>',
+    prevArrow: '<button class="slick-prev"><img src="assets/img/icon/chevron-left.png"</button>',
+    nextArrow: '<button class="slick-next"><img src="assets/img/icon/chevron-right.png"></button>',
     responsive: [{
       breakpoint: 1280,
       settings: {
@@ -524,8 +524,8 @@
     speed: 1000,
     slidesToShow: 1,
     slidesToScroll: 1,
-    prevArrow: '<button class="slick-prev"><i class="ion-chevron-left"></i></button>',
-    nextArrow: '<button class="slick-next"><i class="ion-chevron-right"></i></button>',
+    prevArrow: '<button class="slick-prev"><img src="assets/img/icon/chevron-left.png"</button>',
+    nextArrow: '<button class="slick-next"><img src="assets/img/icon/chevron-right.png"></button>',
     responsive: [{
       breakpoint: 1024,
       settings: {
@@ -566,8 +566,8 @@
     speed: 1000,
     slidesToShow: 3,
     slidesToScroll: 1,
-    prevArrow: '<button class="slick-prev"><i class="ion-chevron-left"></i></button>',
-    nextArrow: '<button class="slick-next"><i class="ion-chevron-right"></i></button>',
+    prevArrow: '<button class="slick-prev"><img src="assets/img/icon/chevron-left.png"</button>',
+    nextArrow: '<button class="slick-next"><img src="assets/img/icon/chevron-right.png"></button>',
     responsive: [{
       breakpoint: 1024,
       settings: {
@@ -620,8 +620,8 @@
     dots: false,
     arrows: true,
     infinite: true,
-    prevArrow: '<button class="slick-prev"><i class="fas fa-chevron-left"></i></button>',
-    nextArrow: '<button class="slick-next"><i class="fas fa-chevron-right"></i></button>',
+    prevArrow: '<button class="slick-prev"><img src="assets/img/icon/chevron-left.png"</button>',
+    nextArrow: '<button class="slick-next"><img src="assets/img/icon/chevron-right.png"></button>',
     slidesToShow: 4,
     slidesToScroll: 1,
     asNavFor: ".product-sync-init",
@@ -643,8 +643,8 @@
     dots: false,
     arrows: true,
     infinite: true,
-    prevArrow: '<button class="slick-prev"><i class="fas fa-arrow-left"></i></button>',
-    nextArrow: '<button class="slick-next"><i class="fas fa-arrow-right"></i></button>',
+    prevArrow: '<button class="slick-prev"><img src="assets/img/icon/chevron-left.png"</button>',
+    nextArrow: '<button class="slick-next"><img src="assets/img/icon/chevron-right.png"></button>',
     slidesToShow: 4,
     slidesToScroll: 1,
     asNavFor: ".product-sync-init2",
@@ -738,7 +738,7 @@
     // Set a custom triggering element. Can be an HTML string or jQuery object
     scrollTarget: false,
     // Set a custom target element for scrolling to. Can be element or number
-    scrollText: '<i class="fas fa-arrow-up"></i>',
+    scrollText: '<img src="assets/img/icon/arrow-up.png">',
     // Text for element, can contain HTML
     scrollTitle: false,
     // Set a custom <a> title if required.
