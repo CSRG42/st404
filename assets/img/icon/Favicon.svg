@@ -1,51 +1,109 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 24.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Camada_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
 <style type="text/css">
-	.st0{clip-path:url(#SVGID_2_);}
-	.st1{clip-path:url(#SVGID_4_);fill:none;stroke:#040506;stroke-width:0.1536;}
-	.st2{clip-path:url(#SVGID_4_);fill:none;stroke:#010202;stroke-width:1.0242;stroke-miterlimit:10;}
-	.st3{fill:#010202;}
-	.st4{font-family:'CirceRoundedW03-Bold';}
-	.st5{font-size:7.4268px;}
-	.st6{font-size:8.1927px;}
-	.st7{clip-path:url(#SVGID_6_);fill:#010202;}
-	.st8{clip-path:url(#SVGID_6_);fill:none;stroke:#040506;stroke-width:0.6145;stroke-linecap:round;}
+	.st0{fill:#FFFFFF;}
+	.st1{clip-path:url(#SVGID_2_);}
+	.st2{clip-path:url(#SVGID_4_);fill:none;stroke:#040506;stroke-width:0.1536;}
+	.st3{clip-path:url(#SVGID_6_);fill:none;stroke:#010202;stroke-width:1.0242;stroke-miterlimit:10;}
+	.st4{clip-path:url(#SVGID_8_);}
+	.st5{fill:#010202;}
+	.st6{font-family:'CirceRoundedW03-Bold';}
+	.st7{font-size:7.4268px;}
+	.st8{clip-path:url(#SVGID_10_);}
+	.st9{font-size:8.8883px;}
+	.st10{clip-path:url(#SVGID_12_);}
+	.st11{clip-path:url(#SVGID_14_);fill:none;}
+	.st12{clip-path:url(#SVGID_16_);fill:none;stroke:#040506;stroke-width:0.6145;stroke-linecap:round;}
 </style>
-<g>
+<g id="Camada_3">
+	<rect width="32" height="32"/>
+</g>
+<g id="Camada_2">
+	<circle class="st0" cx="16" cy="15.9" r="14.6"/>
+</g>
+<g id="Camada_1">
 	<g>
-		<defs>
-			<rect id="SVGID_1_" x="0.33" y="-1.16" width="31.34" height="40.56"/>
-		</defs>
-		<clipPath id="SVGID_2_">
-			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
-		</clipPath>
-		<g class="st0">
-			<defs>
-				<rect id="SVGID_3_" x="0.33" y="-1.16" width="31.34" height="40.56"/>
-			</defs>
-			<clipPath id="SVGID_4_">
-				<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
-			</clipPath>
-			<circle class="st1" cx="15.95" cy="15.94" r="14.95"/>
-			<circle class="st2" cx="15.97" cy="15.91" r="14.42"/>
-		</g>
-		<g class="st0">
-			<text transform="matrix(1 0 0 1 5.6011 15.2891)" class="st3 st4 st5">Studio</text>
-		</g>
-		<g class="st0">
-			<text transform="matrix(1 0 0 1.0849 9.1724 23.2002)" class="st3 st4 st6">404</text>
-		</g>
-		<g class="st0">
-			<defs>
-				<rect id="SVGID_5_" x="0.33" y="-1.16" width="31.34" height="40.56"/>
-			</defs>
-			<clipPath id="SVGID_6_">
-				<use xlink:href="#SVGID_5_"  style="overflow:visible;"/>
-			</clipPath>
-			<line class="st7" x1="4.78" y1="16.04" x2="27.3" y2="16.01"/>
-			<line class="st8" x1="4.78" y1="16.04" x2="27.3" y2="16.01"/>
+		<g>
+			<g>
+				<defs>
+					<rect id="SVGID_1_" x="0.3" y="-1.2" width="31.3" height="40.6"/>
+				</defs>
+				<clipPath id="SVGID_2_">
+					<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+				</clipPath>
+				<g class="st1">
+					<g>
+						<defs>
+							<rect id="SVGID_3_" x="0.3" y="-1.2" width="31.3" height="40.6"/>
+						</defs>
+						<clipPath id="SVGID_4_">
+							<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
+						</clipPath>
+						<circle class="st2" cx="15.9" cy="15.9" r="14.9"/>
+					</g>
+					<g>
+						<defs>
+							<rect id="SVGID_5_" x="0.3" y="-1.2" width="31.3" height="40.6"/>
+						</defs>
+						<clipPath id="SVGID_6_">
+							<use xlink:href="#SVGID_5_"  style="overflow:visible;"/>
+						</clipPath>
+						<circle class="st3" cx="16" cy="15.9" r="14.4"/>
+					</g>
+				</g>
+			</g>
+			<g>
+				<defs>
+					<rect id="SVGID_7_" x="0.3" y="-1.2" width="31.3" height="40.6"/>
+				</defs>
+				<clipPath id="SVGID_8_">
+					<use xlink:href="#SVGID_7_"  style="overflow:visible;"/>
+				</clipPath>
+				<g class="st4">
+					<text transform="matrix(1 0 0 1 5.6011 15.2891)" class="st5 st6 st7">Studio</text>
+				</g>
+			</g>
+			<g>
+				<defs>
+					<rect id="SVGID_9_" x="0.3" y="-1.2" width="31.3" height="40.6"/>
+				</defs>
+				<clipPath id="SVGID_10_">
+					<use xlink:href="#SVGID_9_"  style="overflow:visible;"/>
+				</clipPath>
+				<g class="st8">
+					<text transform="matrix(0.9217 0 0 1 9.1724 23.2002)" class="st5 st6 st9">404</text>
+				</g>
+			</g>
+			<g>
+				<defs>
+					<rect id="SVGID_11_" x="0.3" y="-1.2" width="31.3" height="40.6"/>
+				</defs>
+				<clipPath id="SVGID_12_">
+					<use xlink:href="#SVGID_11_"  style="overflow:visible;"/>
+				</clipPath>
+				<g class="st10">
+					<g>
+						<defs>
+							<rect id="SVGID_13_" x="0.3" y="-1.2" width="31.3" height="40.6"/>
+						</defs>
+						<clipPath id="SVGID_14_">
+							<use xlink:href="#SVGID_13_"  style="overflow:visible;"/>
+						</clipPath>
+						<line class="st11" x1="4.8" y1="16" x2="27.3" y2="16"/>
+					</g>
+					<g>
+						<defs>
+							<rect id="SVGID_15_" x="0.3" y="-1.2" width="31.3" height="40.6"/>
+						</defs>
+						<clipPath id="SVGID_16_">
+							<use xlink:href="#SVGID_15_"  style="overflow:visible;"/>
+						</clipPath>
+						<line class="st12" x1="4.8" y1="16" x2="27.3" y2="16"/>
+					</g>
+				</g>
+			</g>
 		</g>
 	</g>
 </g>
