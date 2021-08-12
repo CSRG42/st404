@@ -3290,6 +3290,9 @@ input[type="number"]::-webkit-outer-spin-button {
   width: 40px;
   line-height: 40px;
   top: 50%;
+  border: 1px solid #ebebeb;
+  background: #ffffff;
+  color: #9d9d9d;
   text-align: center;
   z-index: 1;
   font-size: 14px;
@@ -3443,7 +3446,7 @@ input[type="number"]::-webkit-outer-spin-button {
   opacity: 1;
 }
 
-.theme1 :hover {
+.theme1 .slick-arrow:hover {
   color: #ffffff;
   background: #000000;
   border-color: #000000;
