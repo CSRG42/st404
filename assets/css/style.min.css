@@ -1908,6 +1908,10 @@ li {
   z-index: 1;
 }
 
+.desconto {
+  color: #ff0124;
+}
+
 .product-desc {
   padding: 20px 0px 0px;
 }
@@ -2863,6 +2867,7 @@ li {
     padding-right: 0px;
   }
 }
+
 
 /*-------------------------
      Montink
