@@ -160,8 +160,8 @@ f?(s.length>0&&e.hasClass("slick-current")&&(n(u,c,l,r,!0),h&&i(u,"delay",h),m&&
     dots: true,
     fade: true,
     arrows: false,
-    prevArrow: '<button class="slick-prev"><i class="fas fa-chevron-left"></i></button>',
-    nextArrow: '<button class="slick-next"><i class="fas fa-chevron-right"></i></button>',
+    prevArrow: '<button class="slick-prev"><img src="https://csrg42.github.io/st404/assets/img/studio/sticon/chevron-left.png"></i></button>',
+    nextArrow: '<button class="slick-next"><img src="https://csrg42.github.io/st404/assets/img/studio/sticon/chevron-right.png"></i></button>',
     responsive: [{
       breakpoint: 767,
       settings: {
@@ -194,8 +194,8 @@ f?(s.length>0&&e.hasClass("slick-current")&&(n(u,c,l,r,!0),h&&i(u,"delay",h),m&&
     speed: 1000,
     slidesToShow: 4,
     slidesToScroll: 1,
-    prevArrow: '<button class="slick-prev"><img src="assets/img/studio/sticon/chevron-left.png"></i></button>',
-    nextArrow: '<button class="slick-next"><img src="assets/img/studio/sticon/chevron-right.png"></i></button>',
+    prevArrow: '<button class="slick-prev"><img src="https://csrg42.github.io/st404/assets/img/studio/sticon/chevron-left.png"></i></button>',
+    nextArrow: '<button class="slick-next"><img src="https://csrg42.github.io/st404/assets/img/studio/sticon/chevron-right.png"></i></button>',
     responsive: [{
       breakpoint: 1280,
       settings: {
@@ -244,8 +244,8 @@ f?(s.length>0&&e.hasClass("slick-current")&&(n(u,c,l,r,!0),h&&i(u,"delay",h),m&&
     speed: 1000,
     slidesToShow: 5,
     slidesToScroll: 1,
-    prevArrow: '<button class="slick-prev"><img src="assets/img/studio/sticon/chevron-left.png"></i></button>',
-    nextArrow: '<button class="slick-next"><img src="assets/img/studio/sticon/chevron-right.png"></i></button>',
+    prevArrow: '<button class="slick-prev"><img src="https://csrg42.github.io/st404/assets/img/studio/sticon/chevron-left.png"></i></button>',
+    nextArrow: '<button class="slick-next"><img src="https://csrg42.github.io/st404/assets/img/studio/sticon/chevron-right.png"></i></button>',
     responsive: [{
       breakpoint: 1600,
       settings: {
@@ -368,7 +368,7 @@ f?(s.length>0&&e.hasClass("slick-current")&&(n(u,c,l,r,!0),h&&i(u,"delay",h),m&&
     // Set a custom triggering element. Can be an HTML string or jQuery object
     scrollTarget: false,
     // Set a custom target element for scrolling to. Can be element or number
-    scrollText: '<img src="assets/img/studio/sticon/arrow-up.png">',
+    scrollText: '<img src="https://csrg42.github.io/st404/assets/img/studio/sticon/arrow-up.png">',
     // Text for element, can contain HTML
     scrollTitle: false,
     // Set a custom <a> title if required.
