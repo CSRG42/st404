@@ -655,13 +655,13 @@ li {
 }
 
 .mega-menu li a {
-  color: #707070;
+  color: #000;;
   text-align: left;
   padding: 0 0 5px;
   text-transform: capitalize;
   line-height: 30px;
-  font-weight: 400;
-  font-size: 12px;
+  font-weight: 550;
+  font-size: 13px;
 }
 
 .mega-menu-custom-with {
@@ -715,12 +715,12 @@ li {
 }
 
 .sub-menu li a {
-  font-weight: 400;
+  font-weight: 550;
   text-align: left;
   text-transform: capitalize;
   padding: 0;
-  color: #707070;
-  font-size: 12px;
+  color: #000;;
+  font-size: 13px;
   line-height: 40px;
 }
 
