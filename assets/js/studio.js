@@ -1,3 +1,9 @@
+$(document).ready(function(){
+    if(document.referrer == "https://studio404.com.br/") {
+        document.querySelectorAll('.ocultar')[0].style.display == 'none';
+    }
+});
+
 !function(){for(var e,n=function(){},o=["assert","clear","count","debug","dir","dirxml","error","exception","group","groupCollapsed","groupEnd","info","log","markTimeline","profile","profileEnd","table","time","timeEnd","timeline","timelineEnd","timeStamp","trace","warn"],i=o.length,r=window.console=window.console||{};i--;)r[e=o[i]]||(r[e]=n)}();
 
 
