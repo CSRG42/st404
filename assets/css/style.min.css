@@ -2973,7 +2973,7 @@ li {
         margin: 0 !important;
         display: inline-block !important;
         padding: 0px !important;
-        color: #808080 !important;
+        color: #000000 !important;
         font-size: 20px !important;
     }
     .main-menu li a{
@@ -2999,8 +2999,8 @@ li {
         height: 39px !important;
     }
     .btn-secondary:hover, a:link.btn-secondary:hover {
-        background-color: #181818 !important;
-        border: 1px solid #181818 !important;
+        background-color: #000 !important;
+        border: 1px solid #000 !important;
     }
     .btn-primary-montink-dashboard:hover, a.btn-primary-montink-dashboard:hover, a:visited.btn-primary-montink-dashboard a:link.btn-primary-montink-dashboard:hover {
         background: #6c757d !important;
