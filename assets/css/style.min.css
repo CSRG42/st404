@@ -2948,6 +2948,10 @@ li {
 .product-card .stats-container {
     padding: 20px 20px 20px !important;
 }
+.product-card .stats-container .product_name {
+    font-size: 14px !important;
+    color: #000 !important;
+}
 .row-dados-loja-montink {
     background: #ffffff !important;
 }
