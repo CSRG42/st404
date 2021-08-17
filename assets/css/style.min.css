@@ -3010,15 +3010,21 @@ li {
     }
     .btn-primary {
         color: #fff;
-        background-color: #181818 !important;
-        border-color: #181818 !important;
-        box-shadow: inset 0 0 0 2px #181818 !important;
+        background-color: #000 !important;
+        border-color: #000 !important;
+        box-shadow: inset 0 0 0 2px #000 !important;
     }
     .btn-primary:hover {
         background-color: #fff !important;
-        color: #181818 !important;
-        border-color: #181818 !important;
+        color: #000 !important;
+        border-color: #000 !important;
     }
+	.btn-secondary .btn-secondary.dropdown-toggle {
+	    background-color: #000 !important;
+	    border-color: #000 !important;
+	    color: #fff !important;
+	    box-shadow: 0 0 0 transparent !important;
+	}
     a.naoSeiCep {
         text-decoration: none !important;
         font-size: 14px !important;
