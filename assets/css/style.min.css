@@ -376,7 +376,7 @@ li {
 .bg-img {
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain, cover;
+  background-size: cover;
 }
 
 .bg-img1 {
