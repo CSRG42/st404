@@ -1908,8 +1908,8 @@ li {
   z-index: 1;
 }
 
-.desconto {
-  color: #ff0124;
+.nome {
+	font-weight: bold;
 }
 
 .product-desc {
@@ -2996,6 +2996,13 @@ li {
 }
 .wc_whatsapp_app {
     display: none !important;
+}
+.mt-1 {
+    display: none !important;
+}
+.regular-price {
+    color: #181818 !important;
+    font-size: 30px !important;
 }
 .loja-description {
     margin-top: 20px !important;
