@@ -440,7 +440,9 @@ li {
 }
 
 .text-dark {
-  color: #000000 !important;
+    color: #000000 !important;
+    font-size: 17px !important;
+    font-weight: bold !important;
 }
 
 /*-----------------------
@@ -1910,6 +1912,7 @@ li {
 
 .nome {
 	font-weight: bold;
+	font-size: 15px;
 }
 
 .product-desc {
