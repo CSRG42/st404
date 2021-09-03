@@ -592,7 +592,7 @@ li {
 }
 
 .theme1 li:hover > a {
-  color: #000000;
+  color: #607d8b;
 }
 
 .theme1 li.active > a {
@@ -815,7 +815,6 @@ li {
 
 .cart-block-links.theme1 a:hover {
   color: #000000;
-  background: #888880;
 }
 /******************************** 
   offcanvas toggler btn
