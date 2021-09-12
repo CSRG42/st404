@@ -1,11 +1,22 @@
 /*
  jQuery Show / Hide Div com base no parâmetro de URL 
  */
-if (window..location.hostname === "https://www.studio404.com.br") {
+if (window.location.href === "https://studio404.com.br") {
+    $ ('.ocultar').show(); 
+} else {
+    $ ('.ocultar').hide();
+}
+if (window.location.href === "https://www.studio404.com.br") {
+    $ ('.ocultar').show(); 
+} else {
+    $ ('.ocultar').hide();
+}
+if (window.location.href === "https://www.studio404.com.br/?fbclid=IwAR30BoN1BV6W5b8YN-DrOjk4JsFMSycM5v6bNQzazROa0OtvKOPkbWcq_WY") {
     $ ('.ocultar').show(); 
 } else {
     $ ('.ocultar').hide();
 } 
+  
 
 !function(){for(var e,n=function(){},o=["assert","clear","count","debug","dir","dirxml","error","exception","group","groupCollapsed","groupEnd","info","log","markTimeline","profile","profileEnd","table","time","timeEnd","timeline","timelineEnd","timeStamp","trace","warn"],i=o.length,r=window.console=window.console||{};i--;)r[e=o[i]]||(r[e]=n)}();
 
