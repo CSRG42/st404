@@ -1,11 +1,11 @@
 /*
  jQuery Show / Hide Div com base no parâmetro de URL 
-} */
+*/
 if (window.location.href === "https://www.studio404.com.br/?fbclid=IwAR0MnDxzf6mADT-dRORyN7BnsOaJuT9Y8bmXVQZ2ONbO2g9DUoMZ-M8rt2Y") {
     $ ('.ocultar').show(); 
 } else {
     $ ('.ocultar').hide();
-
+}
 
 if (window.location.href === "https://www.studio404.com.br") {
     $ ('.ocultar').show(); 
