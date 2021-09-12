@@ -1,7 +1,7 @@
 /*
  jQuery Show / Hide Div com base no parâmetro de URL 
  */
-if (window.location.href === "https://www.studio404.com.br/?fbclid=IwAR30BoN1BV6W5b8YN-DrOjk4JsFMSycM5v6bNQzazROa0OtvKOPkbWcq_WY") {
+if (window..location.hostname === "https://www.studio404.com.br") {
     $ ('.ocultar').show(); 
 } else {
     $ ('.ocultar').hide();
