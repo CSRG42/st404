@@ -5,7 +5,7 @@ if (window.location.href === "https://www.studio404.com.br/") {
     $ ('.ocultar').show(); 
 } else if (window.location.href === "https://studio404.com.br/") {
     $ ('.ocultar').show()
-} else if ( url.search('?fbclid=')) {
+} else if ( window.location.hrefurl.search('?fbclid=')) {
     $ ('.ocultar').show()
 } else {
     $ ('.ocultar').hide();
