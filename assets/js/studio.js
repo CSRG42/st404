@@ -1,9 +1,13 @@
 /*
  jQuery Show / Hide Div com base no parâmetro de URL 
  */
-if (window.location.href === "https://www.studio404.com.br") {
+if (window.location.href === "https://www.studio404.com.br/") {
     $ ('.ocultar').show(); 
-} else {
+} else if (window.location.href === "https://studio404.com.br/"){
+    $ ('.ocultar').show()
+} else if (window.location.href === "https://www.studio404.com.br/?fbclid=IwAR1rJgGcqpM8ELZ7uBTS6grgfvkI8sM94AaUcaAlPlE3jjH0rASjzZ635UU") {
+    $ ('.ocultar').show()
+}else {
     $ ('.ocultar').hide();
 } 
 
