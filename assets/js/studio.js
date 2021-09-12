@@ -1,7 +1,9 @@
 /*
  jQuery Show / Hide Div com base no parâmetro de URL 
  */
-if (window.location.href === "https://studio404.com.br/") {
+window.location.href = "https://www.studio404.com.br/"
+ 
+if (window.location.href === "https://www.studio404.com.br/") {
     $ ('.ocultar').show(); 
 } else {
     $ ('.ocultar').hide();
