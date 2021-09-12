@@ -3,11 +3,11 @@
  */
 if (window.location.href === "https://www.studio404.com.br/") {
     $ ('.ocultar').show(); 
-} else if (window.location.href === "https://studio404.com.br/"){
+} else if (window.location.href === "https://studio404.com.br/") {
     $ ('.ocultar').show()
-} else if (window.location.href === "https://www.studio404.com.br/?fbclid=IwAR1rJgGcqpM8ELZ7uBTS6grgfvkI8sM94AaUcaAlPlE3jjH0rASjzZ635UU") {
+} else if (window.location.href === "https://www.studio404.com.br/?fbclid=") {
     $ ('.ocultar').show()
-}else {
+} else {
     $ ('.ocultar').hide();
 } 
 
