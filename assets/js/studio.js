@@ -7,7 +7,7 @@ if (window.location.href === "https://studio404.com.br/") {
     $ ('.ocultar').hide();
 } */
 
-if (window.location.href === "https://www.studio404.com.br/") {
+if (window.location.href === "https://www.studio404.com.br") {
     $ ('.ocultar').show(); 
 } else {
     $ ('.ocultar').hide();
