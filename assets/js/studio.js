@@ -5,8 +5,9 @@ if (window.location.href === "https://www.studio404.com.br/") {
     $ ('.ocultar').show(); 
 } else if (window.location.href === "https://studio404.com.br/") {
     $ ('.ocultar').show()
-} else if (url.search === "?fbclid=") {
-    window.location.href = "https://www.studio404.com.br/";
+} else if (/^\?fbclid=/.test(location.search)) {
+    $ ('.ocultar').show()
+    location.replace(location.href.replace(/\?fbclid.+/, ""));
 } else {
     $ ('.ocultar').hide();
 } 
