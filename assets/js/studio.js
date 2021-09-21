@@ -75,6 +75,13 @@ f?(s.length>0&&e.hasClass("slick-current")&&(n(u,c,l,r,!0),h&&i(u,"delay",h),m&&
     } else {
       $("#sticky").addClass("is-isticky");
     }
+
+    if (scroll < 150) {
+      $("#sticky2").removeClass("is-isticky2");
+    } else {
+      $("#sticky2").addClass("is-isticky2");
+    }
+
   }); // Off Canvas toggler Function
 
   var $offCanvasToggle = $(".offcanvas-toggle"),
