@@ -745,7 +745,29 @@ li {
 /*******************************
  Barra header
  *******************************/
-
+.barra-texto {
+	text-align: center;
+    width: 100%;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+} 
+.barra {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: #000;
+    padding: 22px;
+    height: 57px;
+    color: #fffb00;
+}
+#sticky2.is-isticky2 {
+    position: fixed;
+    bottom: 0;
+   	left: 0;
+    right: 0;
+    z-index: 999;
+}
 
 /*******************************
  sticky header
@@ -2017,8 +2039,8 @@ li {
   background: #000000;
   width: 40px;
   height: 40px;
-  bottom: 50px;
-  right: 50px;
+  bottom: 60px;
+  right: 30px;
   color: #ffffff;
   text-align: center;
   line-height: 33px;
