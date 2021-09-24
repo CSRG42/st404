@@ -2969,6 +2969,11 @@ li {
 .row-dados-loja-montink {
     display: none;
 }
+.row {
+	margin-top: 2px !important;
+	margin-left: 2px !important;
+	margin-right:2px !important;
+}
 .product_price {
     color: #000000 !important;
     font-size: 30px !important;
