@@ -2957,7 +2957,7 @@ li {
     background-color: #6c757d !important;
 }
 .glider {
-    overflow-x: hidden !important;
+    overflow-x: auto !important;
     overflow-y: hidden !important;
 }
 .image_overlay {
