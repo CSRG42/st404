@@ -2980,7 +2980,7 @@ li {
     font-weight: bold !important;
 }
 .product-card .stats-container {
-    padding: 10px 0px 20px !important;
+    padding: 4px 0px 0px !important;
 }
 .product-card .stats-container .product_name {
     font-size: 14px !important;
