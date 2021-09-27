@@ -2964,10 +2964,7 @@ li {
     background-color: #000000 !important;
 }
 .row-dados-loja-montink .item-dados-loja-montink .svg-inline--fa {
-    font-size: 40px !important;
-}
-.svg-inline--fa .fa-truck .fa-w-20 {
-	display: none !important;
+    display: none !important;
 }
 .row {
 	margin-top: 2px !important;
