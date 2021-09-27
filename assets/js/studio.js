@@ -1,5 +1,5 @@
 /*
- jQuery Show / Hide Div com base no parâmetro de URL */
+ jQuery Show / Hide Div com base no parâmetro de URL 
 
 if (window.location.href === "https://www.studio404.com.br/") {
     $ ('.ocultar').show(); 
@@ -9,7 +9,17 @@ if (window.location.href === "https://www.studio404.com.br/") {
     location.replace(location.href.replace(/\?fbclid.+/, ""));
 } else {
     $ ('.ocultar').hide();
-}  
+}  */
+
+if (window.location.href.test === "https://www.studio404.com.br/") {
+    $ ('.ocultar').show(); 
+} else if (window.location.href.test === "https://studio404.com.br/") {
+    $ ('.ocultar').show();
+} else if (/^\?fbclid=/.test(location.search)){
+    location.replace(location.href.replace(/\?fbclid.+/, ""));
+} else {
+    $ ('.ocultar').hide();
+} 
 
 !function(){for(var e,n=function(){},o=["assert","clear","count","debug","dir","dirxml","error","exception","group","groupCollapsed","groupEnd","info","log","markTimeline","profile","profileEnd","table","time","timeEnd","timeline","timelineEnd","timeStamp","trace","warn"],i=o.length,r=window.console=window.console||{};i--;)r[e=o[i]]||(r[e]=n)}();
 
