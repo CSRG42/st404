@@ -11,7 +11,7 @@ if (window.location.href === "https://www.studio404.com.br/") {
     $ ('.ocultar').hide();
 }  */
 window.onload = function() {
-  if (window.location.href.indexOf('/my/url')) {
+  if (window.location.href.indexOf('https://studio404.com.br/')) {
     //Hide the element.
     document.querySelectorAll('.ocultar')[0].style.display = 'none';
   }
