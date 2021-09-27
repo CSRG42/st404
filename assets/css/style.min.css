@@ -2966,6 +2966,9 @@ li {
 .row-dados-loja-montink .item-dados-loja-montink .svg-inline--fa {
     font-size: 40px !important;
 }
+.svg-inline--fa .fa-truck .fa-w-20 {
+	display: none !important;
+}
 .row {
 	margin-top: 2px !important;
 	margin-left: 2px !important;
