@@ -1,5 +1,5 @@
 /*
- jQuery Show / Hide Div com base no parâmetro de URL 
+ jQuery Show / Hide Div com base no parâmetro de URL */
 
 if (window.location.href === "https://www.studio404.com.br/") {
     $ ('.ocultar').show(); 
@@ -9,9 +9,7 @@ if (window.location.href === "https://www.studio404.com.br/") {
     location.replace(location.href.replace(/\?fbclid.+/, ""));
 } else {
     $ ('.ocultar').hide();
-}  */
-
-
+}  
 
 !function(){for(var e,n=function(){},o=["assert","clear","count","debug","dir","dirxml","error","exception","group","groupCollapsed","groupEnd","info","log","markTimeline","profile","profileEnd","table","time","timeEnd","timeline","timelineEnd","timeStamp","trace","warn"],i=o.length,r=window.console=window.console||{};i--;)r[e=o[i]]||(r[e]=n)}();
 
@@ -401,14 +399,3 @@ f?(s.length>0&&e.hasClass("slick-current")&&(n(u,c,l,r,!0),h&&i(u,"delay",h),m&&
     zIndex: 214 // Z-Index for the overlay
   });
 })(jQuery);
-
-
-if (window.location.href === "https://www.studio404.com.br/") {
-    $ ('.ocultar').addClass("produto")
-} else if (window.location.href === "https://studio404.com.br/") {
-    $ ('.ocultar').addClass("produto")
-} else if (/^\?fbclid=/.test(location.search)){
-    location.replace(location.href.replace(/\?fbclid.+/, ""));
-} else {
-    $ ('.ocultar').removeClass("produto");
-} 
