@@ -2966,8 +2966,8 @@ li {
 .img-fluid {
     display: none;
 }
-.row-dados-loja-montink {
-    display: none;
+.row-dados-loja-montink .item-dados-loja-montink .svg-inline--fa {
+    display: none !important;
 }
 .row {
 	margin-top: 2px !important;
