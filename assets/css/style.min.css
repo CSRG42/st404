@@ -828,12 +828,18 @@ li {
 
 .cart-block-links li a {
   font-size: 19px;
-  height: 49px;
+  height: 40px;
+  line-height: 40px;
   width: 40px;
   display: inline-block;
   text-align: center;
   border-radius: 100%;
 }
+
+.icons {
+    width: 40px;
+    height: 30px;
+} 
 
 .cart-block-links.theme1 a {
   color: #000000;
