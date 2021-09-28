@@ -380,35 +380,35 @@ li {
 }
 
 .bg-img1 {
-  background-image: url(../img/studio/stslider/slide1.png);
+  background-image: url(../img/studio/stslider/slide1.webp);
 }
 
 .bg-img2 {
-  background-image: url(../img/studio/stslider/slide2.png);
+  background-image: url(../img/studio/stslider/slide2.webp);
 }
 
 .bg-img3 {
-  background-image: url(../img/studio/stslider/slide3.png);
+  background-image: url(../img/studio/stslider/slide3.webp);
 }
 
 .bg-img4 {
-  background-image: url(../img/studio/stslider/slide4.png);
+  background-image: url(../img/studio/stslider/slide4.webp);
 }
 
 .bg-img5 {
-  background-image: url(../img/studio/stslider/slide5.png);
+  background-image: url(../img/studio/stslider/slide5.webp);
 }
 
 .bg-img6 {
-  background-image: url(../img/studio/stslider/slide6.png);
+  background-image: url(../img/studio/stslider/slide6.webp);
 }
 
 .bg-img7 {
-  background-image: url(../img/studio/stslider/slide7.png);
+  background-image: url(../img/studio/stslider/slide7.webp);
 }
 
 .bg-img8 {
-  background-image: url(../img/studio/stslider/slide8.png);
+  background-image: url(../img/studio/stslider/slide8.webp);
 }
 
 @media (max-width: 991px) {
@@ -2963,8 +2963,11 @@ li {
 .image_overlay {
     background-color: #000000 !important;
 }
-.row-dados-loja-montink .item-dados-loja-montink .svg-inline--fa {
-    display: none !important;
+.img-fluid {
+    display: none;
+}
+.row-dados-loja-montink {
+    display: none;
 }
 .row {
 	margin-top: 2px !important;
