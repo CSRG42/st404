@@ -2936,6 +2936,8 @@ li {
     font-size: 14px !important;
 }
 .form-quantity .btn {
+	height: 26px !important;
+    border-radius: 0% !important;
     background-color: #000000 !important;
 }
 .form-select {
