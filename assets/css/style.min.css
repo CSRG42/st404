@@ -2954,6 +2954,7 @@ li {
 .product-description {
     font-size: 14px !important;
     font-weight: bold !important;
+    text-align: justify !important;
 }
 .glider-dot.active {
     background-color: #6c757d !important;
