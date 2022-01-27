@@ -2903,13 +2903,22 @@ li {
 /*-------------------------
      Montink 2
 -------------------------*/
+.bg-dark {
+	display: block; !important;
+}
 
+.footer-link {
+	display: block; !important;
+}
+
+[data-loja]>header {
+	display: none !important;
+}
 .carousel div:nth-child(2) span {
     background: #ffffff73 !important;
     margin-left: -60px !important;
     margin-right: -60px !important;
-}]
-
+}
 /*-------------------------
      Montink 1
 -------------------------*/
