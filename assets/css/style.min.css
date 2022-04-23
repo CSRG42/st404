@@ -2904,7 +2904,7 @@ li {
      Montink 2
 -------------------------*/
 .bg-dark {
-	display: block !important;
+	display: none !important;
 }
 
 .footer-link {
