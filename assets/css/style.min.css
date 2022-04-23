@@ -2904,11 +2904,11 @@ li {
      Montink 2
 -------------------------*/
 .bg-dark {
-	display: block; !important;
+	display: block !important;
 }
 
 .footer-link {
-	display: block; !important;
+	display: block !important;
 }
 
 [data-loja]>header {
