@@ -388,7 +388,7 @@ f?(s.length>0&&e.hasClass("slick-current")&&(n(u,c,l,r,!0),h&&i(u,"delay",h),m&&
     // Set a custom triggering element. Can be an HTML string or jQuery object
     scrollTarget: false,
     // Set a custom target element for scrolling to. Can be element or number
-    scrollText: '<img src="https://csrg42.github.io/st404/assets/img/studio/sticon/arrow-up.png">',
+    scrollText: '<svg xmlns="http://www.w3.org/2000/svg" width="64%" height="40" fill="currentColor" class="bi bi-chevron-double-up" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M7.646 2.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 3.707 2.354 9.354a.5.5 0 1 1-.708-.708l6-6z"/><path fill-rule="evenodd" d="M7.646 6.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 7.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"/></svg>',
     // Text for element, can contain HTML
     scrollTitle: false,
     // Set a custom <a> title if required.
