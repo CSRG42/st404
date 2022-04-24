@@ -11,6 +11,64 @@ if (window.location.href === "https://www.studio404.com.br/") {
     $ ('.ocultar').hide();
 }  */
 
+
+/*
+ LGPD 
+*/
+function pureFadeIn(e, o) {
+    var i = document.getElementById(e);
+    i.style.opacity = 0, i.style.display = o || "block",
+        function e() {
+            var o = parseFloat(i.style.opacity);
+            (o += .02) > 1 || (i.style.opacity = o, requestAnimationFrame(e))
+        }()
+}
+
+function pureFadeOut(e) {
+    var o = document.getElementById(e);
+    o.style.opacity = 1,
+        function e() {
+            (o.style.opacity -= .02) < 0 ? o.style.display = "none" : requestAnimationFrame(e)
+        }()
+}
+
+function setCookie(e, o, i) {
+    var t = "";
+    if (i) {
+        var n = new Date;
+        n.setTime(n.getTime() + 24 * i * 60 * 60 * 1e3), t = "; expires=" + n.toUTCString()
+    }
+    document.cookie = e + "=" + (o || "") + t + "; path=/"
+}
+
+function getCookie(e) {
+    for (var o = e + "=", i = document.cookie.split(";"), t = 0; t < i.length; t++) {
+        for (var n = i[t];
+            " " == n.charAt(0);) n = n.substring(1, n.length);
+        if (0 == n.indexOf(o)) return n.substring(o.length, n.length)
+    }
+    return null
+}
+
+function eraseCookie(e) {
+    document.cookie = e + "=; Max-Age=-99999999;"
+}
+
+function cookieConsent() {
+    getCookie("purecookieDismiss") || (document.body.innerHTML += '<div class="cookieConsentContainer" id="cookieConsentContainer"><div class="cookieTitle"><a>' + purecookieTitle + '</a></div><div class="cookieDesc"><p>' + purecookieDesc + " " + purecookieLink + '</p></div><div class="cookieButton"><a onClick="purecookieDismiss();">' + purecookieButton + "</a></div></div>", pureFadeIn("cookieConsentContainer"))
+}
+
+function purecookieDismiss() {
+    setCookie("purecookieDismiss", "1", 7), pureFadeOut("cookieConsentContainer")
+}
+window.onload = function() {
+    cookieConsent()
+};
+
+/*
+ LGPD END
+*/
+
 !function(){for(var e,n=function(){},o=["assert","clear","count","debug","dir","dirxml","error","exception","group","groupCollapsed","groupEnd","info","log","markTimeline","profile","profileEnd","table","time","timeEnd","timeline","timelineEnd","timeStamp","trace","warn"],i=o.length,r=window.console=window.console||{};i--;)r[e=o[i]]||(r[e]=n)}();
 
 
@@ -388,7 +446,7 @@ f?(s.length>0&&e.hasClass("slick-current")&&(n(u,c,l,r,!0),h&&i(u,"delay",h),m&&
     // Set a custom triggering element. Can be an HTML string or jQuery object
     scrollTarget: false,
     // Set a custom target element for scrolling to. Can be element or number
-    scrollText: '<svg xmlns="http://www.w3.org/2000/svg" width="64%" height="40" fill="currentColor" class="bi bi-chevron-double-up" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M7.646 2.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 3.707 2.354 9.354a.5.5 0 1 1-.708-.708l6-6z"/><path fill-rule="evenodd" d="M7.646 6.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 7.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"/></svg>',
+    scrollText: '<img src="https://csrg42.github.io/st404/assets/img/studio/sticon/arrow-up.png">',
     // Text for element, can contain HTML
     scrollTitle: false,
     // Set a custom <a> title if required.
