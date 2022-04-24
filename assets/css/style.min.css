@@ -2061,7 +2061,115 @@ li {
 }
 /******************************** 
     scrollUp style End
- ********************************/
+********************************/
+
+/******************************** 
+        lateral style
+********************************/
+#lateral {
+	background: #000000;
+    width: 40px;
+    height: 40px;
+    bottom: 123px;
+    right: 30px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 33px;
+    border-radius: 50%;
+}
+
+#lateral:focus {
+	color: #ffffff;
+}
+
+#lateral:hover {
+    background: #253237;
+    color: #ffffff;
+    -webkit-box-shadow: 0 0 20px #ffffff;
+    box-shadow: 0 0 20px #ffffff;
+}
+
+/******************************** 
+     	lateral style End
+********************************/
+
+/******************************** 
+        LGPD style
+********************************/
+.cookieConsentContainer {
+    position: fixed;
+    left: 10px;
+   	right: 10px;
+    bottom: 25px;
+    z-index: 9999;
+    -webkit-box-align: center;
+    align-items: center;
+    max-width: 1230px;
+    margin: 0px auto;
+   	background: rgb(255, 255, 255);
+    padding: 20px;
+    box-shadow: rgb(170 170 170) 0px 0px 10px;
+    border-radius: 12px;
+    display: none;
+}
+
+.cookieConsentContainer .cookieTitle a {
+    font-family: OpenSans, arial, sans-serif;
+    color: #000000;
+    font-size: 22px;
+    line-height: 20px;
+    display: block;
+}
+
+.cookieConsentContainer .cookieDesc p {
+    margin: 0;
+    padding: 0;
+    font-family: OpenSans, arial, sans-serif;
+    color: #000000;
+    font-size: 13px;
+    line-height: 20px;
+    display: block;
+    margin-top: 10px
+}
+
+.cookieConsentContainer .cookieDesc a {
+    font-family: OpenSans, arial, sans-serif;
+    color: #000000;
+    text-decoration: underline;
+}
+
+.cookieConsentContainer .cookieButton a {
+    font-family: OpenSans, arial, sans-serif;
+    display:inline-block;
+    color:#000000;
+    font-size:14px;
+    font-weight:700;
+    margin-top:14px;
+    background:#fffb00;
+    box-sizing:border-box;
+    padding:15px 24px;
+    text-align:center;
+    transition:background .3s;
+    margin-inline: 494px;
+}
+
+.cookieConsentContainer .cookieButton a:hover {
+   cursor: pointer;
+   background:#000000;
+   color: #ffffff;
+}
+
+@media (max-width:980px) {
+    .cookieConsentContainer {
+        bottom: 0!important;
+        left: 0!important;
+        width: 100%!important;
+    }
+}
+/******************************** 
+     	LGPD style End
+********************************/
+
 /*-----------------------
 # Margin & Padding
 -------------------------*/
@@ -2904,7 +3012,7 @@ li {
      Montink 2
 -------------------------*/
 .bg-dark {
-	display: none !important;
+	display: none; !important;
 }
 
 .footer-link {
@@ -2920,7 +3028,7 @@ li {
     margin-right: -60px !important;
 }
 /*-------------------------
-     Montink Tema 1
+     Montink 1
 -------------------------*/
 .form-control-icon {
     display: none !important;
@@ -3054,6 +3162,9 @@ li {
 .main-menu li a {
     font-size: 14px !important;
     font-weight: bold !important;
+}
+.wc_whatsapp_app {
+    display: none !important;
 }
 .mt-1 {
     display: none !important;
